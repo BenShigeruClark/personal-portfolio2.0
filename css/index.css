@@ -1,0 +1,21 @@
+#profile-pic {
+  max-height: 300px;
+  max-width: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+#slide-show {
+  position: relative;
+}
+
+#slide-show img {
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  height: 650px;
+}
+
+#slide-show img.active {
+  z-index: 3;
+}
