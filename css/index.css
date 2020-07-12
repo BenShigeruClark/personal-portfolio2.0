@@ -44,6 +44,58 @@ html {
   }
 }
 
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  background: rgb(238, 185, 39);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  background: rgb(216, 133, 10);
+}
+
+#welcome-section {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+  text-align: left;
+  font-size: 2.5em;
+  padding: 100px;
+  margin: 30px;
+  color: rgb(132, 189, 255);
+  background-color: rgb(0, 84, 153);
+}
+
+#intro-2nd {
+  text-align: left;
+  
+}
+
 #profile-pic {
   max-height: 300px;
   max-width: auto;
