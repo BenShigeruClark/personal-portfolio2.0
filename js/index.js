@@ -11,7 +11,7 @@ function crossFade() {
 }
 
 $(document).ready(function() {
-  setInterval('crossFade()', 5000)
+  setInterval('crossFade()', 4500)
 })
 
 // function to animate text
