@@ -228,10 +228,10 @@ html {
 }
 
 #contact {
-  background-color: rgb(77, 39, 39);
+  background: linear-gradient(rgb(36, 78, 36) 0%,rgb(114, 56, 56) 50%,rgb(77, 39, 39) 100%);
   color: white;
   font-size: 3.5rem;
   text-align: center;
-  padding: 5rem;
+  padding: 12rem;
   font-family: 'Special Elite', cursive;
 }
