@@ -224,13 +224,14 @@ html {
   /* position: absolute;
   top: 2500px; */
   background-color: rgb(52, 109, 52);
-  background: linear-gradient(rgb(149, 247, 149) 0%, rgb(91, 175, 91) 22%, rgb(36, 78, 36) 100%);
+  background: linear-gradient(rgb(255, 255, 255) 0%, rgb(91, 175, 91) 22%, rgb(36, 78, 36) 100%);
 }
 
 #contact {
   background-color: rgb(77, 39, 39);
   color: white;
-  font-size: 2rem;
+  font-size: 3.5rem;
   text-align: center;
   padding: 5rem;
+  font-family: 'Special Elite', cursive;
 }
