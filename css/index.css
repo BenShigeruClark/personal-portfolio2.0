@@ -243,7 +243,7 @@ html {
 }
 
 .project-image {
-  /* object-fit: cover; */
+  object-fit: cover;
   /* display: block; */
   width: 33%;
   height: auto;
