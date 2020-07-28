@@ -182,9 +182,15 @@ html {
 }
 
 .placement-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   width: 900px;
   height: 600px;
-  text-align: center;
+  position: relative;
+  top: -56px;
+  /* text-align: center; */
 }
 
 #slide-show {
@@ -192,8 +198,8 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 63%;
-  padding: 10px;
+  width: 62.5%;
+  /* padding: 10px; */
 }
 
 #slide-show img {
