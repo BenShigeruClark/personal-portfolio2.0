@@ -286,25 +286,59 @@ html {
 #contact {
   background: linear-gradient(rgb(36, 78, 36) 0%,rgb(114, 56, 56) 50%,rgb(77, 39, 39) 100%);
   color: white;
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-align: center;
   padding: 12rem;
   font-family: 'Special Elite', cursive;
 }
 
-.contact-details {
+footer {
   background: rgb(43, 21, 21);
   color: white;
   display: flex;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
   width: 100%;
-  padding: 0 2rem;
+  /* max-width: 980px; */
+  /* margin-top: 4rem; */
+  /* margin: 5px; */
+  padding: 4rem;
   flex-wrap: wrap;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: 'Source Code Pro', monospace;
+  transition: transform 0.3s ease-out;
 }
 
-.btn contact-details:hover {
+.contact-details {
+  color: white;
+  padding: 1px;
+  margin: 25px;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px #727171;
+  transition: transform 0.5s ease-out;
+}
+
+.contact-details:hover {
   transform: translateY(8px);
+  /* color: #fc0000; */
+}
+
+#github:hover {
+  color: #3cc520;
+}
+
+#linkedin:hover {
+  color: rgb(0, 47, 255); 
+}
+
+#instagram:hover {
+  color: rgb(247, 29, 0);
+}
+
+#email:hover {
+  color: rgb(250, 12, 250);
+}
+
+#mobile:hover {
+  color: rgb(255, 251, 30);
 }
