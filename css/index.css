@@ -218,10 +218,6 @@ html {
   z-index: 3;
 }
 
-/* .crossfade {
-  top: -10px;
-} */
-
 .projects-section {
   /* display: flex;
   flex-direction: column;
@@ -243,6 +239,12 @@ html {
   border-bottom: 0.2rem solid var(black);
 }
 
+@media (max-width: 28.75em) {
+  .project-section-header {
+    font-size: 4rem;
+  }
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -251,6 +253,12 @@ html {
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 6rem;
+}
+
+@media (max-width: 30.625em) {
+  .project-section {
+    padding: 6rem 1rem;
+  }
 }
 
 .project {
@@ -289,7 +297,13 @@ html {
   font-size: 6rem;
   text-align: center;
   padding: 12rem;
-  font-family: 'Special Elite', cursive;
+  /* font-family: 'Special Elite', cursive; */
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
 }
 
 .rainbow {
@@ -327,6 +341,13 @@ footer {
   flex-wrap: wrap;
   font-size: 3rem;
   font-family: 'Source Code Pro', monospace;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .contact-details {
