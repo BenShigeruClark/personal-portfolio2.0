@@ -65,10 +65,17 @@ html {
 @media (max-width: 28.75em) {
   .nav {
     justify-content: center;
+    width: 25%;
+    flex-direction: column;
+    font-size: .5rem;
+    text-align: center;
   }
 
   .nav-list {
+    justify-content: center;
     margin: 0 1rem;
+    font-size: 0.5em;
+    text-align: center;
   }
 }
 
@@ -318,7 +325,7 @@ html {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: rainbow_animation 35s ease-in-out infinite;
+  animation: rainbow_animation 20s ease-in-out infinite;
   background-size: 400% 100%;
 }
 
