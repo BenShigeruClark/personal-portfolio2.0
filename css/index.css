@@ -33,14 +33,14 @@ html {
 /* 980px / 16px = 61.25em */
 @media (max-width: 61.25em) {
   html {
-    font-size: 50%;
+    font-size: 58%;
   }
 }
 
 /* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
   html {
-    font-size: 25%;
+    font-size: 55%;
   }
 }
 
@@ -64,18 +64,14 @@ html {
 
 @media (max-width: 28.75em) {
   .nav {
-    justify-content: center;
-    width: 25%;
-    flex-direction: column;
-    font-size: 20%;
-    text-align: center;
+    justify-content: center
   }
 
   .nav-list {
-    justify-content: center;
+    /* justify-content: flex-end; */
     margin: 0 1rem;
-    font-size: 0.5em;
-    text-align: center;
+    /* font-size: 0.5em;
+    text-align: center; */
   }
 }
 
