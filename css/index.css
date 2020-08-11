@@ -44,6 +44,36 @@ html {
   }
 }
 
+/* meta {
+  background-size: cover;
+} */
+
+/* body {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+} */
+
+/* h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+} */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* img {
+  display: block;
+  width: 100%;
+} */
+
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -68,10 +98,7 @@ html {
   }
 
   .nav-list {
-    /* justify-content: flex-end; */
     margin: 0 1rem;
-    /* font-size: 0.5em;
-    text-align: center; */
   }
 }
 
@@ -90,17 +117,26 @@ html {
   color: white;
 }
 
-#welcome-section {
+.welcome-section {
   font-family: 'Source Code Pro', monospace;
   font-weight: 700;
   text-align: left;
   font-size: 3rem;
   padding: 125px;
   margin: 0;
-  /* color: rgb(132, 189, 255); */
   background-color: rgb(0, 28, 51);
   line-height: 80px;
 }
+
+/* @media (max-width: 28.75em) {
+  .welcome-section {
+    font-size: 2.5em;
+    justify-content: center;
+    background-size: 100%;
+    min-height: 100%;
+    clear: both;
+  }
+} */
 
 #intro {
   font-size: 1.25rem;
@@ -206,6 +242,13 @@ html {
   /* padding: 10px; */
 }
 
+@media (max-width: 28.75) {
+  #slide-show {
+    display: block;
+    left: 50%;
+  }
+}
+
 #slide-show img {
   position: absolute;
   z-index: 1;
@@ -214,7 +257,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   top: 1800px;
-  /* bottom: 10px; */
+  bottom: 10px;
 }
 
 #slide-show img.active {
@@ -222,10 +265,6 @@ html {
 }
 
 .projects-section {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* align-items: center; */
   text-align: center;
   padding: 10rem 2rem;
   background-color: rgb(52, 109, 52);
@@ -242,11 +281,11 @@ html {
   border-bottom: 0.2rem solid var(black);
 }
 
-@media (max-width: 28.75em) {
+/* @media (max-width: 28.75em) {
   .project-section-header {
     font-size: 4rem;
   }
-}
+} */
 
 .projects-grid {
   display: grid;
@@ -258,11 +297,11 @@ html {
   margin-bottom: 6rem;
 }
 
-@media (max-width: 30.625em) {
+/* @media (max-width: 30.625em) {
   .project-section {
     padding: 6rem 1rem;
   }
-}
+} */
 
 .project {
   text-decoration: none;
@@ -303,11 +342,11 @@ html {
   /* font-family: 'Special Elite', cursive; */
 }
 
-@media (max-width: 28.75em) {
+/* @media (max-width: 28.75em) {
   .contact-section-header > h2 {
     font-size: 4rem;
   }
-}
+} */
 
 .rainbow {
   text-align: center;
@@ -346,12 +385,12 @@ footer {
   font-family: 'Source Code Pro', monospace;
 }
 
-@media (max-width: 28.75em) {
+/* @media (max-width: 28.75em) {
   footer {
     flex-direction: column;
     text-align: center;
   }
-}
+} */
 
 .contact-details {
   color: white;
