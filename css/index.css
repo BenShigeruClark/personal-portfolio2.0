@@ -121,29 +121,21 @@ a {
   font-family: 'Source Code Pro', monospace;
   font-weight: 700;
   text-align: left;
-  font-size: 3rem;
-  padding: 125px;
+  font-size: 2rem;
+  padding: 100px;
   margin: 0;
   background-color: rgb(0, 28, 51);
-  line-height: 80px;
+  line-height: 50px;
 }
 
 @media (max-width: 28.75em) {
   .ml3 {
-    font-size: 1em;
+    font-size: .5em;
     justify-content: center;
     background-size: 100%;
     min-height: 100%;
     clear: both;
   }
-}
-
-#intro {
-  font-size: 1.25rem;
-  font-family: 'Press Start 2P', cursive;
-  color: rgb(60, 240, 253);
-  line-height: 100px;
-  text-align: center;
 }
 
 #intro-1st {
@@ -161,15 +153,35 @@ a {
 }
 
 #intro-4th {
-  color: rgb(76, 157, 250);
+  color: rgb(130, 184, 245);
 }
 
 #intro-5th {
-  color: rgb(30, 129, 243);
+  color: rgb(101, 168, 245);
 }
 
 #intro-6th {
+  color: rgb(58, 143, 240);
+}
+
+#intro-7th {
+  color: rgb(23, 118, 228);
+}
+
+#intro-8th {
+  color: rgb(6, 103, 214);
+}
+
+#intro-9th {
   color: rgb(0, 90, 194);
+}
+
+#intro {
+  font-size: 1.25rem;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(60, 240, 253);
+  line-height: 100px;
+  text-align: center;
 }
 
 .about-section {
@@ -242,12 +254,18 @@ a {
   /* padding: 10px; */
 }
 
-@media (max-width: 28.75) {
+@media (max-width: 61.25em) {
+  #slide-show img {
+    top: 1900px;
+  }
+}
+
+@media (max-width: 28.75em) {
   #slide-show  img {
     /* display: block; */
     top: 3000px;
-    right: 3px;
-    bottom: -50px;
+    /* right: 3px; */
+    /* bottom: -50px; */
     left: 0;
   }
 }
