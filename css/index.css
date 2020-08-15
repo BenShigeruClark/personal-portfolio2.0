@@ -150,22 +150,27 @@ a {
 
 #intro-3rd {
   color: rgb(118, 180, 252);
+  padding-left: 60px;
 }
 
 #intro-4th {
   color: rgb(130, 184, 245);
+  padding-left: 120px;
 }
 
 #intro-5th {
   color: rgb(101, 168, 245);
+  padding-left: 60px;
 }
 
 #intro-6th {
   color: rgb(58, 143, 240);
+  padding-left: 120px;
 }
 
 #intro-7th {
   color: rgb(23, 118, 228);
+  padding-left: 60px;
 }
 
 #intro-8th {
@@ -174,6 +179,7 @@ a {
 
 #intro-9th {
   color: rgb(0, 90, 194);
+  margin: 30px;
 }
 
 #intro {
