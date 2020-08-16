@@ -266,7 +266,8 @@ a {
 
 @media (max-width: 28.75em) {
   #slide-show  img {
-    top: 3000px;
+    position: relative;
+    top: 5000px;
     right: 0;
     left: auto;
   }
@@ -279,11 +280,16 @@ a {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  top: 1872px;
+  top: 0;
   right: 1px;
   bottom: -3px;
   left: 0;
 
+}
+
+.position-abs {
+  position: relative;
+  top: auto;
 }
 
 #slide-show img.active {
