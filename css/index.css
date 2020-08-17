@@ -235,7 +235,7 @@ a {
   font-family: 'Amatic SC', cursive;
   font-size: 3.5rem;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   padding: 8rem;
 }
 
@@ -280,7 +280,7 @@ a {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  top: 0;
+  top: -64px;
   right: 1px;
   bottom: -3px;
   left: 0;
