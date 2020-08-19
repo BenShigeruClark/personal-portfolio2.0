@@ -24,7 +24,7 @@ anime.timeline({loop: true})
     scaleY: [0,1],
     opacity: [0.5,1],
     easing: "easeOutExpo",
-    duration: 700
+    duration: 200
   })
   .add({
     targets: '.ml11 .line',
@@ -42,7 +42,7 @@ anime.timeline({loop: true})
   }).add({
     targets: '.ml11',
     opacity: 0,
-    duration: 1000,
+    duration: 2500,
     easing: "easeOutExpo",
-    delay: 1000
+    delay: 2000
   })

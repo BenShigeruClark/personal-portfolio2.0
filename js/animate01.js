@@ -6,6 +6,6 @@ anime.timeline({loop: false})
     targets: '.ml3',
     opacity: [0,1],
     easing: "easeInOutQuad",
-    duration: 2250,
+    duration: 3500,
     delay: (el, i) => 150 * (i+15)
   })
