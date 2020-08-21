@@ -117,7 +117,7 @@ a {
 }
 
 .ml3 {
-  background: linear-gradient(to right, #075eff, #6666ff, #0099ff , #00ff00, #fae102, #f86e13, #ff3399,#f71313, #6666ff, #16ffe0, #04ffb4, #ff2cff, #ff0095);
+  background: linear-gradient(to right, #075eff, #6666ff, #0099ff , #00ff00, #fae102, #f86e13, #ff3399,#f71313, #6666ff, #16ffe0, #04ffb4, #ff2cff, #ff0095, rgb(255, 166, 0), rgb(247, 247, 2), rgb(15, 255, 15), rgb(0, 204, 255), rgb(231, 0, 231), rgb(204, 0, 255), rgb(255, 154, 255));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
